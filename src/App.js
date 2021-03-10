@@ -1,7 +1,18 @@
 
+function Food(){
+  return <h1>I like Movie</h1>
+}
 
 function App() {
-  return <div className="App">hello!!!</div>;
+  return (
+  <div>
+    <h1>
+      hello!!!
+    </h1>
+    <Food />
+    
+  </div>
+  );
 }
 
 export default App;
